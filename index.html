@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js problem solving</title>
+</head>
+<body>
+    
+
+    
+
+
+    <script>
+
+
+        document.write("<h1>1. Write a C program to input week number(1-7) and print day of week name using switch case.</h1>");
+
+
+        var user = 7;
+
+
+        if (user == 1) {
+            document.write("SANDAY");
+        }
+        if (user == 2) {
+            document.write('MONDAY');
+        }
+        if (user == 3) {
+            document.write('TUESDAY');
+        }
+        if (user == 4) {
+            document.write('WEDNESDAY');
+        }
+        if (user == 5) {
+            document.write('THURSDAY');
+        }
+        if (user == 6) {
+            document.write('FRIDAY');
+        }
+        if (user == 7) {
+            document.write('SATURDAY');
+        }
+
+        document.write("<h1>2. Write a C program to input month number and print total number of days in month.</h1>");
+
+
+
+        var monthsTotal = 2;
+
+        if (monthsTotal == 1) {
+            document.write(31);
+        }
+        if (monthsTotal == 2) {
+            document.write(28);
+        }
+        if (monthsTotal == 3) {
+            document.write(31);
+        }
+        if (monthsTotal == 4) {
+            document.write(30);
+        }
+        if (monthsTotal == 5) {
+            document.write(31);
+        }
+        if (monthsTotal == 6) {
+            document.write(30);
+        }
+        if (monthsTotal == 7) {
+            document.write(31);
+        }
+        if (monthsTotal == 8) {
+            document.write(31);
+        }
+        if (monthsTotal == 9) {
+            document.write(30);
+        }
+        if (monthsTotal == 10) {
+            document.write(31);
+        }
+        if (monthsTotal == 11) {
+            document.write(30);
+        }
+        if (monthsTotal == 12) {
+            document.write(31);
+        }
+
+
+        document.write("<h1>3. Write a C program to input an alphabet and check whether it is vowel or consonant </h1>");
+
+
+        var alphabet = 'O';
+
+        if ( 'a' == alphabet ) {
+            document.write('VOWEL');
+        }
+        else if ( 'e' == alphabet ) {
+            document.write('VOWEL');
+        }
+        else if ( 'i' == alphabet ) {
+            document.write('VOWEL');
+        }
+        else if ( 'o' == alphabet ) {
+            document.write('VOWEL');
+        }
+        else if ( 'u' == alphabet ) {
+            document.write('VOWEL');
+        }
+        else if ( 'A' == alphabet ) {
+            document.write('VOWEL');
+        }
+        else if ( 'E' == alphabet ) {
+            document.write('VOWEL');
+        }
+        else if ( 'I' == alphabet ) {
+            document.write('VOWEL');
+        }
+        else if ( 'O' == alphabet ) {
+            document.write('VOWEL');
+        }
+        else if ( 'U' == alphabet ) {
+            document.write('VOWEL');
+        }
+        else{
+            document.write("CONSONENT");
+        }
+
+
+
+
+
+       document.write("<h1>4. Write a C program to input two numbers from user and find maximum between two numbers using switch case. </h1>");
+ 
+        var num1 = 220;
+        var num2 = 304;
+
+        if (num1>num2) {
+            document.write('Number One Is Bigger Than Number 2');
+        }
+        else {
+            document.write('Number Two Is Bigger Than Number 1');
+        }
+
+        document.write("<h1>5. Write a C program to input number from user and check whether the number is even or odd </h1>");
+ 
+        var num = 0;
+
+        if (num % 2 == 0) {
+            document.write('Even Number');
+        }else{
+            document.write('Odd Number');
+        }
+
+        document.write("<h1>6. Write a C program to input a number and check positive negative or zero  </h1>");
+
+        var num = 5;
+
+        if (num > 0) {
+            document.write('Positive Number');
+        }
+       if (num<0) {
+            document.write('Negative Number');
+        }
+        if (num == 0) {
+            document.write('Zero');
+        }
+        document.write("<h1>7. C program to find maximum between three numbers  </h1>");
+
+        var num1=2331;
+        var num2=2330;
+        var num3=3000;
+
+        if (num1>num2 && num1>num3 ) {
+            document.write("Number One Is Bigger Than Other");
+            
+        }
+        else if (num2>num1 && num2>num3 ) {
+            document.write("Number Two Is Bigger Than Other");
+            
+        }else{
+            document.write("Number Three Is Bigger Than Other");
+
+        }
+
+        document.write("<h1>8. Write a C program to check whether a number is divisible by 5 and 11 or not  </h1>");
+
+        var num = 110;
+        
+        if ((num%5 == 0 )&&( num%11 == 0)) {
+            document.write("Its a True Number" );
+        } else {
+            document.write("Its a False Number" );
+        }
+
+        document.write("<h1>**9. Write a C program to check leap year using if else. How to check whether a given year is leap year or not  </h1>");
+
+        var year = 2100;
+
+        if (((year%4 == 0) && (year%100 != 0)) || (year%400 == 0)) {
+            document.write( year +" Is Leap Year");
+        }else{
+            document.write( year +" Is Not a Leap Year");
+        }
+
+
+        document.write("<h1>10. Write a C program to input a character from user and check whether the given character is alphabet or not <h1>");
+
+            var char = "p";
+
+            if (((char >= 'a') && ( char <= 'z')) || ((char >= 'A') && (char <= 'Z'))) {
+                document.write(' it is alphabet');
+            }else{
+                document.write(' It is not an alphabet');
+            }
+
+            document.write("<h1>**11. Write a C program to input a character from user and check whether given character is alphabet, digit or special character<h1>");
+
+            var char = "000";
+
+            if (((char >= 'a') && ( char <= 'z')) || ((char >= 'A') && (char <= 'Z'))) {
+                document.write(' it is alphabet');
+            }
+            else if ((char >= 0) && (char <= 9)) {
+                document.write(' it is digit');
+            } 
+            else if ((char >= 10)) {
+                document.write(' it is Number');
+            } else{
+                document.write(' It is special character');
+            }
+
+            document.write("<h1>12. Write a C program to input character from user and check whether character is uppercase or lowercase alphabet<h1>");
+
+             var char = "a";
+
+            if (((char >= 'a') && ( char <= 'z'))) {
+                document.write(' it is Lowercase ');
+            }
+            else if (((char >= 'A') && (char <= 'Z'))){
+                document.write(' It is Uppercase');
+            }else{
+                document.write(' It is not a charcter');
+            }
+
+            document.write("<h1>**8. Write a C program to check whether a triangle is valid or not if angles are given using if else<h1>");
+
+                var angle1 = 50;
+                var angle2 = 60;
+                var angle3 = 70;
+
+                var sum = angle1 + angle2 +angle3 ;
+
+                if ((sum == 180)&& (angle1> 0) && (angle2> 0) && (angle3> 0) ) {
+                    document.write("its a Valid Triangle");
+                }else{
+                    document.write("its  not a Valid Triangle");
+                }
+            document.write("<h1>****9. Write a C program to input side of a triangle and check whether triangle is valid or not using<h1>");
+
+                var angleSide1 = 7;
+                var angleSide2 = 10;
+                var angleSide3 = 5;
+
+                if (((angleSide1 + angleSide2) > angleSide3) && ((angleSide1 + angleSide3) > angleSide2) && ((angleSide3 + angleSide2) > angleSide1)) {
+                    document.write(" triangle is valid");
+                }else{
+                    document.write(" triangle is not valid");
+                }
+
+                document.write("<h1>**10. Write a C program to input sides of a triangle and check whether a triangle is equilateral, scalene or isosceles triangle.<h1>");
+
+                var side1 = 80;
+                var side2 = 80;
+                var side3 = 80;
+
+
+                if ((side1==side2)&&(side1==side3)&&(side2==side3)) {
+                    document.write('triangle is equilateral');
+                }
+                else if ((side1==side2)||(side1==side3)||(side2==side3)) {
+                    document.write('triangle is isosceles');
+                }
+                else{
+                    document.write('triangle is scalene');
+                }
+
+
+                document.write("<h1>11. Write a C program to input cost price and selling price of a product and check profit or loss.<h1>");
+
+                    var costPrice = 20;
+                    var sellingPrice = 10;
+
+                    if (costPrice < sellingPrice) {
+                        document.write('Product Is Profitable');
+                    } else if (costPrice > sellingPrice) {
+                        document.write('Product Is lossing');
+                    }else {
+                        document.write('Both are Eqaual');
+                    }
+
+                    document.write("<h1>**12. Write a C program to input marks of five subjects Physics, Chemistry, +```````````Biology, Mathematics and Computer, calculate percentage and grade according to given conditions: If percentage >= 90% : Grade A If percentage >= 80% : Grade B If percentage >= 70% : Grade C If percentage >= 60% : Grade D If percentage >= 40% : Grade E If percentage < 40% : Grade F <h1>");
+
+                    var percentage = 52;
+
+                    if ( (percentage >= 90) && (percentage <= 100)) {
+                        document.write("Grade A");
+                    }
+                    else if ((percentage >= 80) && (percentage <= 89)) {
+                        document.write("Grade B");
+                    }
+                    else if ((percentage >= 70) && (percentage <= 79)) {
+                        document.write("Grade C");
+                    }
+                    else if ((percentage >= 60) && (percentage <= 69)) {
+                        document.write("Grade D");
+                    }
+                    else if ((percentage >= 40) && (percentage <= 59)) {
+                        document.write("Grade E");
+                    }
+                    else if (percentage < 40) {
+                        document.write("Grade F");
+                    }
+                    else{
+                        document.write("Its Not a Percentage");
+                    }
+
+                    document.write("<h1>**13. Write a C program to input basic salary of an employee and calculate gross salary according to given conditions. Basic Salary <= 10000 : HRA = 20%, DA = 80%Basic Salary is between 10001 to 20000 : HRA = 25%, DA = 90%Basic Salary >= 20001 : HRA = 30%, DA = 95% <h1>");
+
+
+                    var basic_salary = 22000;
+
+                    var HRA, DA, Intotal;
+
+                    if (basic_salary <=10000) {
+                        HRA = basic_salary *.2;
+                        DA = basic_salary * .8;
+                    }
+                    else  if ((basic_salary >=10001) && (basic_salary <=20000) ) {
+                        HRA = basic_salary * .25;
+                        DA = basic_salary * .9;
+                    }else 
+                    {
+                        HRA = basic_salary * .3;
+                        DA = basic_salary * .95;
+                    }
+
+                    Intotal = basic_salary + HRA + DA;
+
+                    document.write( 'Your Basic Salary =' + Intotal);
+
+                    document.write("<h1>**14. Write a js program to input electricity unit charge and calculate the total electricity bill according to the given condition:For first 50 units tk. 3/unit For next 100 units tk. 5/unit For next 100 units tk. 7/unitFor unit above 250 tk. 10/unitAn additional surcharge of 15% is added to the bill.<h1>");
+
+                        var units = 283;
+
+                        var total = 0;
+                        
+
+                        if (units <= 50) {
+                            total = units * 5;
+                        }
+                        else if ((units >= 51) && (units <=150)) {
+
+                            total = (50 * 5) + ((units - 50) * 7)  ;
+                        }
+                        else if ((units >= 151) && (units <=250)) {
+                            total = (50 * 5) + (100 * 7) + ((units - 150) * 10);
+                        }else{
+                            total = (50 * 5) + (100 * 7) + ((units - 250) * 12) + (100 * 10);
+                        }
+
+
+                        var vat = (total * .15) + total ;
+
+                         document.write("total amount = " + total + "<br>" + "total Vat + amount =" + vat);
+
+
+
+
+    </script>
+
+
+
+
+</body>
+</html>
